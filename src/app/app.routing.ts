@@ -8,6 +8,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { SignupComponent } from './signup/signup.component';
 import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 const routes: Routes =[
     // { path: 'home',             component: HomeComponent },
@@ -15,6 +16,7 @@ const routes: Routes =[
     { path: 'register',           component: SignupComponent },
     { path: 'home',          component: LandingComponent },
     { path: 'login',          component: LoginComponent },
+    { path: 'about-us', component: AboutUsComponent},
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
