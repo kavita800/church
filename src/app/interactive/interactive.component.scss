@@ -1,0 +1,33 @@
+.text {
+    text-align: end !important;
+}
+
+img {
+    max-width: 500px !important;
+    left: 0px !important;
+}
+a {
+    color: #5e72e4;
+}
+.entry-content table td, .comment-body table td {
+    border-bottom: 1px #ccc solid;
+}
+.entry-content table td, .entry-content table th, .comment-body table td, .comment-body table th {
+    padding: 10px 5px;
+    text-align: center;
+}
+.entry-content table, .comment-body table {
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+}
+table {
+    background-color: transparent;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}

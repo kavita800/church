@@ -1,12 +1,12 @@
 /*!
 
 =========================================================
-* Argon Design System Angular - v1.1.0
+* CTV Angular - v1.1.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/argon-design-system-angular
+* Product Page: https://www.creative-tim.com/product/ctv-angular
 * Copyright 2019 Coptic Orthodox Church (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-angular/blob/master/LICENSE.md)
+* Licensed under MIT (https://github.com/creativetimofficial/ctv-angular/blob/master/LICENSE.md)
 
 * Coded by Coptic Orthodox Church
 

@@ -10,6 +10,7 @@ import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { MobileVideoComponent } from './mobile-video/mobile-video.component';
+import { InteractiveComponent } from './interactive/interactive.component';
 
 const routes: Routes =[
     // { path: 'home',             component: HomeComponent },
@@ -17,6 +18,7 @@ const routes: Routes =[
     { path: 'register',           component: SignupComponent },
     { path: 'home',          component: LandingComponent },
     { path: 'login',          component: LoginComponent },
+    { path: 'interactive',          component: InteractiveComponent },
     { path: 'about-us', component: AboutUsComponent},
     { path: 'mobile-video', component: MobileVideoComponent},
 
