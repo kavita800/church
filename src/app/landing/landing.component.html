@@ -35,33 +35,33 @@
       <div class="row justify-content-center">
         <div class="col-lg-12">
           <div class="row row-grid">
-            <div class="col-lg-4" [routerLink]="['/mobile-video']">
+            <div class="col-lg-4" [routerLink]="['/mobile-video','iphone']">
               <div class="card card-lift--hover shadow border-0">
                 <div class="card-body py-5">
                   <div >
                     <img src="http://18.217.175.155/ctvchannel/wp-content/uploads/2020/08/banner_iphone.png">
                   </div>
-                  <a href="http://18.217.175.155/ctvchannel/?page_id=695" ><h6 class="text-primary text-uppercase">IPHONE & IPAD USERS</h6></a>
+                  <a  [routerLink]="['/mobile-video','iphone']"><h6 class="text-primary text-uppercase">IPHONE & IPAD USERS</h6></a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4"  [routerLink]="['/mobile-video']">
+            <div class="col-lg-4"  [routerLink]="['/mobile-video','android']">
               <div class="card card-lift--hover shadow border-0">
                 <div class="card-body py-5">
                   <div>
                     <img src="http://18.217.175.155/ctvchannel/wp-content/uploads/2020/08/banner_android.png">
                   </div>
-                  <a href="http://18.217.175.155/ctvchannel/?page_id=696"><h6 class="text-success text-uppercase">ANDROID USERS</h6></a>
+                  <a [routerLink]="['/mobile-video','android']"><h6 class="text-success text-uppercase">ANDROID USERS</h6></a>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4"  [routerLink]="['/mobile-video']">
+            <div class="col-lg-4"  [routerLink]="['/mobile-video','computer']">
               <div class="card card-lift--hover shadow border-0">
                 <div class="card-body py-5">
                   <div>
                     <img src="http://18.217.175.155/ctvchannel/wp-content/uploads/2020/08/banner_computer.png">
                   </div>
-                  <a href="http://18.217.175.155/ctvchannel/?page_id=697"><h6 class="text-warning text-uppercase">COMPUTER USERS</h6></a>
+                  <a [routerLink]="['/mobile-video','computer']"><h6 class="text-warning text-uppercase">COMPUTER USERS</h6></a>
                 </div>
               </div>
             </div>

@@ -20,7 +20,7 @@ const routes: Routes =[
     { path: 'login',          component: LoginComponent },
     { path: 'interactive',          component: InteractiveComponent },
     { path: 'about-us', component: AboutUsComponent},
-    { path: 'mobile-video', component: MobileVideoComponent},
+    { path: 'mobile-video/:page', component: MobileVideoComponent},
 
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
