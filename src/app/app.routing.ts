@@ -18,7 +18,7 @@ const routes: Routes =[
     { path: 'home',          component: LandingComponent },
     { path: 'login',          component: LoginComponent },
     { path: 'about-us', component: AboutUsComponent},
-    { path: 'mobile-video', component: MobileVideoComponent},
+    { path: 'mobile-video/:page', component: MobileVideoComponent},
 
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-mobile-video',
@@ -7,8 +8,12 @@ import { Router, ActivatedRoute } from '@angular/router';
   styleUrls: ['./mobile-video.component.scss']
 })
 export class MobileVideoComponent implements OnInit {
-
-  constructor(private router: Router ,private route: ActivatedRoute) { }
+safeURL : any;
+pageName : string;
+  constructor(private router: Router ,private route: ActivatedRoute, private _sanitizer: DomSanitizer) { 
+    this.safeURL = this._sanitizer.bypassSecurityTrustResourceUrl('http://www.ctvchannel.tv/Pages/Live.aspx');
+    this.pageName =  this.route.snapshot.paramMap.get('page')
+  }
 
   ngOnInit(): void {
   }
